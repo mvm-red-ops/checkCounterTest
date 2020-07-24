@@ -15,7 +15,7 @@ Q2 to make the comparisons. Once the test is working we can extend it to more th
 ------------------------------------------------
 ## Process Steps
 
-0. ### Create vars
+#### 0. Create vars
     array of check records (implied from csv)
 
     array of schedules (implied from csv)
@@ -33,14 +33,14 @@ Q2 to make the comparisons. Once the test is working we can extend it to more th
 
 ------------------------------------------------
 
-### 1. Save the checksheet and schedule excel sheet to variables
+#### 1. Save the checksheet and schedule excel sheet to variables
    a. Format Dates and Times so data is comparable
 
-### 2. Iterate through the check data array 
+#### 2. Iterate through the check data array 
      a. For each check find the associated schedule     
      b. Determine if there is another check attached to that schedule and update the counter variables
 
-### 3. Return the values of the counter. How many schedules have multiple check details?
+#### 3. Return the values of the counter. How many schedules have multiple check details?
 
         
 ------------------------------------------------
