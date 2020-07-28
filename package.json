@@ -1,0 +1,22 @@
+{
+  "name": "checkcountertest",
+  "version": "1.0.0",
+  "description": "**Purpose**  Determine if the check matching process is better suited for an object oriented approach.Instead of adding the check details to individual fields on the schedule, the check details would create a related Check object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvm-red-ops/checkCounterTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mvm-red-ops/checkCounterTest/issues"
+  },
+  "homepage": "https://github.com/mvm-red-ops/checkCounterTest#readme",
+  "dependencies": {
+    "papaparse": "^5.2.0"
+  }
+}
